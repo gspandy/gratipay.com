@@ -9,8 +9,8 @@ if not team.show_as_team(user):
   request.redirect('../')
 locked = False
 tip_or_pledge = "tip"
-hero = _("Team Members")
 title = team.username     # used in the title tag
+subhead = _("Team Members")
 username = team.username  # used in footer shared with on/%platform/ pages
 
 [-----------------------------------------------------------------------------]
