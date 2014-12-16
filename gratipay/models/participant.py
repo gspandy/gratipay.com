@@ -1044,6 +1044,7 @@ class Participant(Model, MixinTeam):
                        amount
                      , tippee
                      , t.ctime
+                     , t.mtime
                      , p.claimed_time
                      , p.username_lower
                      , p.number
@@ -1068,6 +1069,7 @@ class Participant(Model, MixinTeam):
                        amount
                      , tippee
                      , t.ctime
+                     , t.mtime
                      , p.claimed_time
                      , e.platform
                      , e.user_name
